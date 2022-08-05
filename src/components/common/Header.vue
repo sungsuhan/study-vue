@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1><a href="#" class="logo"><img alt="Vue logo" src="https://newsroom-prd-data.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2/cfile28.uf.1252314E4EC491FB09683C.jpg" width="60"></a></h1>
+    <h1><a href="#" class="logo"><img alt="SKT logo" src="https://newsroom-prd-data.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2/cfile28.uf.1252314E4EC491FB09683C.jpg" width="60"></a></h1>
     <div class="menuWrap">
       <ul class="menu">
         <li><a href="javascript:">메뉴1</a></li>
@@ -24,6 +24,5 @@ header h1{position:absolute; top:0; left:100px;}
 header ul.menu:after{display:block; clear:both; content:'';}
 header ul.menu{position:absolute; top:20px; right:50px;}
 header ul.menu li{float:left; padding:10px 20px; list-style:none;}
-
 a{text-decoration:none; color:#333;}
 </style>
