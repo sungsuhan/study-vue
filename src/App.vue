@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
 
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view />
 
     <Footer />
   </div>
@@ -10,14 +10,12 @@
 
 <script>
 import Header from './components/common/Header'
-import HelloWorld from './components/HelloWorld.vue'
 import Footer from './components/common/Footer'
 
 export default {
   name: 'App',
   components: {
     Header,
-    HelloWorld,
     Footer
   }
 }

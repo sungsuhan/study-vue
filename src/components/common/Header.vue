@@ -1,12 +1,17 @@
 <template>
   <header>
-    <h1><a href="#" class="logo"><img alt="SKT logo" src="https://newsroom-prd-data.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2/cfile28.uf.1252314E4EC491FB09683C.jpg" width="60"></a></h1>
+    <h1><router-link to="/"><img alt="SKT logo" src="https://img.etnews.com/photonews/0804/200804180153_18050505_1914353948_l.jpg" width="50"></router-link></h1>
     <div class="menuWrap">
       <ul class="menu">
-        <li><a href="javascript:">메뉴1</a></li>
-        <li><a href="javascript:">메뉴2</a></li>
-        <li><a href="javascript:">메뉴3</a></li>
-        <li><a href="javascript:">메뉴4</a></li>
+        <li><router-link to="/board/list">상품서비스</router-link></li>
+        <li><a href="javascript:;">T다이렉트샵</a></li>
+        <li><a href="javascript:;">T우주</a></li>
+        <li><a href="javascript:;">T멤버십</a></li>
+        <li><a href="javascript:;">T로밍</a></li>
+        <li><a href="javascript:;">혜택/이벤트</a></li>
+        <li><a href="javascript:;">고객지원</a></li>
+        <li><a href="javascript:;">검색</a></li>
+        <li><a href="javascript:;">myT</a></li>
       </ul>
     </div>
   </header>
@@ -19,10 +24,11 @@ export default {
 </script>
 
 <style scoped>
-header{width:100%; text-align:center; position:relative; height:120px; border-bottom:1px solid #35495e}
-header h1{position:absolute; top:0; left:100px;}
+header{width:100%; text-align:center; position:relative; height:115px; border-bottom:1px solid #35495e}
+header h1{position:absolute; top:10px; left:250px;}
 header ul.menu:after{display:block; clear:both; content:'';}
-header ul.menu{position:absolute; top:20px; right:50px;}
-header ul.menu li{float:left; padding:10px 20px; list-style:none;}
+header ul.menu{position:absolute; top:20px; right:300px;}
+header ul.menu li{float:left; padding:10px 40px; list-style:none;}
+
 a{text-decoration:none; color:#333;}
 </style>
