@@ -1,19 +1,62 @@
 <template>
   <header>
-    <h1><router-link to="/"><img alt="SKT logo" src="https://img.etnews.com/photonews/0804/200804180153_18050505_1914353948_l.jpg" width="50"></router-link></h1>
-    <div class="menuWrap">
-      <ul class="menu">
-        <li><router-link to="/board/list">상품서비스</router-link></li>
-        <li><a href="javascript:;">T다이렉트샵</a></li>
-        <li><a href="javascript:;">T우주</a></li>
-        <li><a href="javascript:;">T멤버십</a></li>
-        <li><a href="javascript:;">T로밍</a></li>
-        <li><a href="javascript:;">혜택/이벤트</a></li>
-        <li><a href="javascript:;">고객지원</a></li>
-        <li><a href="javascript:;">검색</a></li>
-        <li><a href="javascript:;">myT</a></li>
-      </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <router-link to="/">
+        <img class="navbar-brand" src="https://img.etnews.com/photonews/0804/200804180153_18050505_1914353948_l.jpg" />
+        </router-link>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="board/list">상품서비스</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">T다이렉트샵</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/">T우주</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">T멤버십</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">T로밍</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">혜택/이벤트</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">고객지원</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SKT 5GX</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TworldBiz</a>
+            </li>
+            <li>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                myT
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">로그인</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">회원가입</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 </template>
 
@@ -24,11 +67,5 @@ export default {
 </script>
 
 <style scoped>
-header{width:100%; text-align:center; position:relative; height:115px; border-bottom:1px solid #35495e}
-header h1{position:absolute; top:10px; left:250px;}
-header ul.menu:after{display:block; clear:both; content:'';}
-header ul.menu{position:absolute; top:20px; right:300px;}
-header ul.menu li{float:left; padding:10px 40px; list-style:none;}
-
-a{text-decoration:none; color:#333;}
+img{width: 50px}
 </style>
