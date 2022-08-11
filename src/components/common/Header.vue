@@ -10,31 +10,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="board/list">상품서비스</a>
+            <li class="fw-bolder">
+              <a class="nav-link" href="/board/list">상품서비스</a>
             </li>
-            <li class="nav-item">
+            <li class="fw-bolder">
               <a class="nav-link" href="#">T다이렉트샵</a>
             </li>
-            <li class="nav-item">
+            <li class="fw-bolder">
               <a class="nav-link" href="/">T우주</a>
             </li>
-            <li class="nav-item">
+            <li class="fw-bolder">
               <a class="nav-link" href="#">T멤버십</a>
             </li>
-            <li class="nav-item">
+            <li class="fw-bolder">
               <a class="nav-link" href="#">T로밍</a>
             </li>
-            <li class="nav-item">
+            <li class="fw-bolder">
               <a class="nav-link" href="#">혜택/이벤트</a>
             </li>
-            <li class="nav-item">
+            <li class="fw-bolder">
               <a class="nav-link" href="#">고객지원</a>
             </li>
-            <li class="nav-item">
+            <li class="nfw-bolder">
               <a class="nav-link" href="#">SKT 5GX</a>
             </li>
-            <li class="nav-item">
+            <li class="fw-bolder">
               <a class="nav-link" href="#">TworldBiz</a>
             </li>
             <li>
@@ -44,7 +44,7 @@
             </form>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style="color: red">
                 myT
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
