@@ -12,13 +12,10 @@
     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
       <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
       <label class="btn btn-outline-primary" style="font-weight: bold; height: 80px; width: 250px; line-height: 65px" for="btnradio1"><img src="https://www.shinhancard.com/pconts/images/dx/contents/logo_wavve_rd.png" style="width: 30px"> wavve 구독</label>
-
       <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
       <label class="btn btn-outline-primary" style="font-weight: bold; height: 80px; width: 250px; line-height: 65px" for="btnradio2"><img src="https://obj-kr.thewiki.kr/data/696d672d666c6f2d6c6f676f2e706e67.png" style="width: 30px"> FLO 구독</label>
-
       <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
       <label class="btn btn-outline-primary" style="font-weight: bold; height: 80px; width: 250px; line-height: 65px" for="btnradio3"><img src="https://play-lh.googleusercontent.com/WcrqQ9atNdC7dp4vG4fWue0kRdMxiDSTKu9E1Zj7EmGcgdQ8j3u9_2Tt8vw-zPvKCkg" style="width: 30px"> TMAP 플러스 베이직 구독</label>
-
       <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
       <label class="btn btn-outline-primary" style="font-weight: bold; height: 80px; width: 250px; line-height: 65px" for="btnradio4"><img src="https://play-lh.googleusercontent.com/_wpxnQ1w05P6VUwD22sr_tEaXuukvGZ3UCySdamRKS1N8g-u44CnDkDVOPmPdiv9Fgs" style="width: 30px"> 원스토리 패스 구독</label>
     </div><br /><br /><br />
